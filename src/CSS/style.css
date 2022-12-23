@@ -50,6 +50,46 @@
 html {
   font-size: 62.5%;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #080301;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  font-weight: 400;
+}
+a:link {
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(53, 99, 168);
+  font-weight: 900;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  font-weight: 900;
+  color: rgb(255, 255, 251);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .main-div {
   min-height: 100vh;
   /*background: #060822;*/

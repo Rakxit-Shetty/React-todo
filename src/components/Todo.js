@@ -34,16 +34,11 @@ export default function Todo() {
 
     <>
     <div className="main-div" >
-    <div className="child-div">
-    <figure>
-    <figcaption> Add Your List Here </figcaption>
-    
-    </figure>
+      <div className="child-div">
+     
                         
-                        
-  
                     <div className="addItems">
-                        <input type="text" placeholder="Add Items..."
+                        <input type="text" placeholder="Add Items Here..."
                            value={input} 
                            onChange={(e) => setInput(e.target.value) }
                         />
@@ -70,7 +65,11 @@ export default function Todo() {
       </div>
      
     </div>
-       
+    <div class="footer">
+  
+    <div>For Learning React JS component by <a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a></div>
+
+</div>
       </div>
       
     </>
