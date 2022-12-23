@@ -67,7 +67,7 @@ export default function Todo() {
     </div>
     <div class="footer">
   
-    <div>For Learning React JS component by <a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a></div>
+    <div>&#169;DEC -2022 to Learn React JS components by <a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a></div>
 
 </div>
       </div>
