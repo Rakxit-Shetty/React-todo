@@ -38,7 +38,7 @@ export default function Todo() {
      
                         
                     <div className="addItems">
-                        <input type="text" placeholder="Add Items Here..."
+                        <input type="text" placeholder="Click on + to add items..."
                            value={input} 
                            onChange={(e) => setInput(e.target.value) }
                         />
@@ -63,13 +63,16 @@ export default function Todo() {
 </div>
          <button className="btn effect04" data-sm-link-text="REMOVE ALL" onClick={removeAll }><span>CHECK LIST</span></button>
       </div>
-     
-    </div>
-    <div class="footer">
-  
-    <div>&#169;DEC -2022 to Learn React JS components by <a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a></div>
 
-</div>
+      <div class="footer">
+  	<div>&#169; Dec -2022 to Learn React JS components by 
+		<a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
+	</div>
+
+	</div>
+
+    </div>
+    
       </div>
       
     </>
