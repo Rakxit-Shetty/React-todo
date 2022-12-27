@@ -64,12 +64,7 @@ export default function Todo() {
          <button className="btn effect04" data-sm-link-text="REMOVE ALL" onClick={removeAll }><span>CHECK LIST</span></button>
       </div>
 
-      <div class="footer">
-  	<div>&#169; Dec -2022 to Learn React JS components by 
-		<a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
-	</div>
-
-	</div>
+      
 
     </div>
     
