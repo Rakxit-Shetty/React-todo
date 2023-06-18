@@ -4,9 +4,9 @@ function App() {
   return (
     <>
     <Todo/>
-    <footer class="footer">
-  	    <div>&#169; Dec -2022 to Learn React JS components by 
-		        <a href="https://rakshitshetty.netlify.app"> &nbsp; Rakxit-Shetty</a>
+    <footer className="footer">
+  	    <div>&#169; {new Date().getFullYear()} to Learn React JS components by 
+		        <a href="https://rakshithshetty.vercel.app"> &nbsp; Rakxit-Shetty</a>
 	      </div>
 	    </footer>
     </>
